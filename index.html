@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="A responsive navbar with hamburger menu built using HTML5, CSS3 and JavaScript."
+    >
+
+    <meta
+        name="author"
+        content="Rukhsar Hussain"
+    >
+
+    <title>Responsive Navbar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                RH
+            </a>
+
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navMenu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <ul class="nav-menu" id="navMenu">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="task-label">
+                    VEDA TECHNOLOGY • TASK 21
+                </p>
+
+                <h1>
+                    Responsive Navbar
+                </h1>
+
+                <p>
+                    A responsive navigation bar that transforms into
+                    a slide-in hamburger menu on smaller screens.
+                </p>
+
+                <a
+                    href="#about"
+                    class="hero-button"
+                >
+                    Explore
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="content-section"
+            id="about"
+        >
+
+            <h2>
+                About
+            </h2>
+
+            <p>
+                This section demonstrates how the navigation links
+                connect to different areas of the page.
+            </p>
+
+        </section>
+
+
+        <section
+            class="content-section alternate"
+            id="services"
+        >
+
+            <h2>
+                Services
+            </h2>
+
+            <p>
+                Responsive layouts, frontend development, and
+                interactive web interfaces.
+            </p>
+
+        </section>
+
+
+        <section
+            class="content-section"
+            id="projects"
+        >
+
+            <h2>
+                Projects
+            </h2>
+
+            <p>
+                Explore different frontend projects created using
+                HTML, CSS, and JavaScript.
+            </p>
+
+        </section>
+
+
+        <section
+            class="content-section alternate"
+            id="contact"
+        >
+
+            <h2>
+                Contact
+            </h2>
+
+            <p>
+                Thank you for visiting this responsive navigation
+                demonstration.
+            </p>
+
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
